@@ -1,0 +1,73 @@
+﻿/* Styling the page content */
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* Styling the table container */
+.table-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Table border and spacing */
+.table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: #f4f4f4;
+}
+
+/* Table header styling */
+.table thead {
+    background-color: #f4f4f4;
+}
+
+.table thead th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    color: #333;
+}
+
+/* Table row styling */
+.table tbody tr {
+    transition: background-color 0.2s;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+/* Table cell styling */
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    color: #555;
+}
+
+/* Highlight first column */
+.table tbody tr td:first-child {
+    font-weight: bold;
+    color: #333;
+}
